@@ -1,0 +1,116 @@
+{
+  "ancients": [
+    {
+      "name": "Azathoth",
+      "expansion": "AH",
+      "mask": false,
+      "doomTrack": 14,
+      "combatRating": -1.0e+2048,
+      "worshipper": {
+        "monster": "maniac",
+        "modifiers": [
+          {
+            "toughness": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cthulhu",
+      "expansion": "AH",
+      "mask": false,
+      "doomTrack": 13,
+      "combatRating": -6,
+      "worshipper": {
+        "monster": "cultist",
+        "horrorRating": -2,
+        "horrorDamage": 2
+      }
+    },
+    {
+      "name": "Hastur",
+      "expansion": "AH",
+      "mask": false,
+      "doomTrack": 13,
+      "combatRating": 0,
+      "worshipper": {
+        "monster": "cultist",
+        "color": "blue",
+        "combatRating": -2
+      }
+    },
+    {
+      "name": "Ithaqua",
+      "expansion": "AH",
+      "mask": false,
+      "doomTrack": 11,
+      "combatRating": -3,
+      "worshipper": {
+        "monster": "cultist",
+        "modifiers": [
+          {
+            "toughness": 2
+          }
+        ]
+      }
+    },
+    {
+      "name": "Nyarlathotep",
+      "expansion": "AH",
+      "mask": true,
+      "doomTrack": 11,
+      "combatRating": -4,
+      "worshipper": {
+        "monster": "cultist",
+        "abilities": [
+          {
+            "ability": "endless"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Shub-Niggurath",
+      "expansion": "AH",
+      "mask": false,
+      "doomTrack": 12,
+      "combatRating": -5,
+      "worshipper": {
+        "monster": "darkYoung",
+        "abilities": [
+          {
+            "ability": "endless"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Yig",
+      "expansion": "AH",
+      "mask": false,
+      "doomTrack": 10,
+      "combatRating": -3,
+      "worshipper": {
+        "monster": "cultist",
+        "combatRating": 0,
+        "combatDamage": 4
+      }
+    },
+    {
+      "name": "Yog-Sothoth",
+      "expansion": "AH",
+      "mask": false,
+      "doomTrack": 12,
+      "combatRating": -5,
+      "worshipper": {
+        "monster": "cultist",
+        "combatRating": -1,
+        "abilities": [
+          {
+            "ability": "magicalImmunity"
+          }
+        ]
+      }
+    }
+  ]
+}

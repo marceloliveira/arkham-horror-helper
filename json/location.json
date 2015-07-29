@@ -1,0 +1,262 @@
+{
+  "locations": [
+    {
+      "location": "administrationBuilding",
+      "name": "Administration Building",
+      "type": "location",
+      "neighborhood": "miskatonicUniversity",
+      "stability": "green",
+      "white": "miskatonicUniversityStreet",
+      "black": "miskatonicUniversityStreet"
+    },{
+      "location": "arkhamAsylum",
+      "name": "Arkham Asylum",
+      "type": "location",
+      "neighborhood": "downtown",
+      "stability": "green",
+      "white": "downtownStreet",
+      "black": "downtownStreet"
+    },{
+      "location": "bankOfArkham",
+      "name": "Bank of Arkham",
+      "type": "location",
+      "neighborhood": "downtown",
+      "stability": "green",
+      "white": "downtownStreet",
+      "black": "downtownStreet"
+    },{
+      "location": "blackCave",
+      "name": "black Cave",
+      "type": "location",
+      "neighborhood": "rivertown",
+      "stability": "red",
+      "white": "rivertownStreet",
+      "black": "rivertownStreet"
+    },{
+      "location": "curiositieShoppe",
+      "name": "Curiositie Shoppe",
+      "type": "location",
+      "neighborhood": "northside",
+      "stability": "green",
+      "white": "northsideStreet",
+      "black": "northsideStreet"
+    },{
+      "location": "downtownStreet",
+      "name": "Downtown",
+      "type": "street",
+      "neighborhood": "downtown",
+      "white": "downtownStreet",
+      "black": "downtownStreet"
+    },{
+      "location": "arkhamAsylum",
+      "name": "Arkham Asylum",
+      "neighborhood": "downtown",
+      "stability": "green",
+      "white": "downtownStreet",
+      "black": "downtownStreet"
+    },{
+      "location": "arkhamAsylum",
+      "name": "Arkham Asylum",
+      "neighborhood": "downtown",
+      "stability": "green",
+      "white": "downtownStreet",
+      "black": "downtownStreet"
+    },{
+      "location": "arkhamAsylum",
+      "name": "Arkham Asylum",
+      "neighborhood": "downtown",
+      "stability": "green",
+      "white": "downtownStreet",
+      "black": "downtownStreet"
+    },{
+      "location": "arkhamAsylum",
+      "name": "Arkham Asylum",
+      "neighborhood": "downtown",
+      "stability": "green",
+      "white": "downtownStreet",
+      "black": "downtownStreet"
+    },{
+      "location": "arkhamAsylum",
+      "name": "Arkham Asylum",
+      "neighborhood": "downtown",
+      "stability": "green",
+      "white": "downtownStreet",
+      "black": "downtownStreet"
+    },{
+      "location": "arkhamAsylum",
+      "name": "Arkham Asylum",
+      "neighborhood": "downtown",
+      "stability": "green",
+      "white": "downtownStreet",
+      "black": "downtownStreet"
+    },{
+      "location": "arkhamAsylum",
+      "name": "Arkham Asylum",
+      "neighborhood": "downtown",
+      "stability": "green",
+      "white": "downtownStreet",
+      "black": "downtownStreet"
+    },{
+      "location": "arkhamAsylum",
+      "name": "Arkham Asylum",
+      "neighborhood": "downtown",
+      "stability": "green",
+      "white": "downtownStreet",
+      "black": "downtownStreet"
+    },{
+      "location": "arkhamAsylum",
+      "name": "Arkham Asylum",
+      "neighborhood": "downtown",
+      "stability": "green",
+      "white": "downtownStreet",
+      "black": "downtownStreet"
+    },{
+      "location": "arkhamAsylum",
+      "name": "Arkham Asylum",
+      "neighborhood": "downtown",
+      "stability": "green",
+      "white": "downtownStreet",
+      "black": "downtownStreet"
+    },{
+      "location": "arkhamAsylum",
+      "name": "Arkham Asylum",
+      "neighborhood": "downtown",
+      "stability": "green",
+      "white": "downtownStreet",
+      "black": "downtownStreet"
+    },{
+      "location": "arkhamAsylum",
+      "name": "Arkham Asylum",
+      "neighborhood": "downtown",
+      "stability": "green",
+      "white": "downtownStreet",
+      "black": "downtownStreet"
+    },{
+      "location": "arkhamAsylum",
+      "name": "Arkham Asylum",
+      "neighborhood": "downtown",
+      "stability": "green",
+      "white": "downtownStreet",
+      "black": "downtownStreet"
+    },{
+      "location": "arkhamAsylum",
+      "name": "Arkham Asylum",
+      "neighborhood": "downtown",
+      "stability": "green",
+      "white": "downtownStreet",
+      "black": "downtownStreet"
+    },{
+      "location": "arkhamAsylum",
+      "name": "Arkham Asylum",
+      "neighborhood": "downtown",
+      "stability": "green",
+      "white": "downtownStreet",
+      "black": "downtownStreet"
+    },{
+      "location": "arkhamAsylum",
+      "name": "Arkham Asylum",
+      "neighborhood": "downtown",
+      "stability": "green",
+      "white": "downtownStreet",
+      "black": "downtownStreet"
+    },{
+      "location": "arkhamAsylum",
+      "name": "Arkham Asylum",
+      "neighborhood": "downtown",
+      "stability": "green",
+      "white": "downtownStreet",
+      "black": "downtownStreet"
+    },{
+      "location": "arkhamAsylum",
+      "name": "Arkham Asylum",
+      "neighborhood": "downtown",
+      "stability": "green",
+      "white": "downtownStreet",
+      "black": "downtownStreet"
+    },{
+      "location": "arkhamAsylum",
+      "name": "Arkham Asylum",
+      "neighborhood": "downtown",
+      "stability": "green",
+      "white": "downtownStreet",
+      "black": "downtownStreet"
+    },{
+      "location": "arkhamAsylum",
+      "name": "Arkham Asylum",
+      "neighborhood": "downtown",
+      "stability": "green",
+      "white": "downtownStreet",
+      "black": "downtownStreet"
+    },{
+      "location": "arkhamAsylum",
+      "name": "Arkham Asylum",
+      "neighborhood": "downtown",
+      "stability": "green",
+      "white": "downtownStreet",
+      "black": "downtownStreet"
+    },{
+      "location": "arkhamAsylum",
+      "name": "Arkham Asylum",
+      "neighborhood": "downtown",
+      "stability": "green",
+      "white": "downtownStreet",
+      "black": "downtownStreet"
+    },{
+      "location": "arkhamAsylum",
+      "name": "Arkham Asylum",
+      "neighborhood": "downtown",
+      "stability": "green",
+      "white": "downtownStreet",
+      "black": "downtownStreet"
+    },{
+      "location": "arkhamAsylum",
+      "name": "Arkham Asylum",
+      "neighborhood": "downtown",
+      "stability": "green",
+      "white": "downtownStreet",
+      "black": "downtownStreet"
+    },{
+      "location": "arkhamAsylum",
+      "name": "Arkham Asylum",
+      "neighborhood": "downtown",
+      "stability": "green",
+      "white": "downtownStreet",
+      "black": "downtownStreet"
+    },{
+      "location": "arkhamAsylum",
+      "name": "Arkham Asylum",
+      "neighborhood": "downtown",
+      "stability": "green",
+      "white": "downtownStreet",
+      "black": "downtownStreet"
+    },{
+      "location": "arkhamAsylum",
+      "name": "Arkham Asylum",
+      "neighborhood": "downtown",
+      "stability": "green",
+      "white": "downtownStreet",
+      "black": "downtownStreet"
+    },{
+      "location": "arkhamAsylum",
+      "name": "Arkham Asylum",
+      "neighborhood": "downtown",
+      "stability": "green",
+      "white": "downtownStreet",
+      "black": "downtownStreet"
+    },{
+      "location": "arkhamAsylum",
+      "name": "Arkham Asylum",
+      "neighborhood": "downtown",
+      "stability": "green",
+      "white": "downtownStreet",
+      "black": "downtownStreet"
+    },{
+      "location": "arkhamAsylum",
+      "name": "Arkham Asylum",
+      "neighborhood": "downtown",
+      "stability": "green",
+      "white": "downtownStreet",
+      "black": "downtownStreet"
+    }
+  ]
+}

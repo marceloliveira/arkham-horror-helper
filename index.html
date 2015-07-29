@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<link rel="stylesheet" href="/resources/bootstrap/css/bootstrap.css" charset="utf-8">
+<link rel="stylesheet" href="/css/monster.css" charset="utf-8">
+<body ng-app="arkham">
+  <div class="container">
+    <div ng-controller="AncientOne" class="col-md-12">
+      <div>
+        <label>Ancient One</label> {{ selectedAncient.name }} {{ selectedAncient.combatRating }}
+        <button type="button" class="btn btn-danger" aria-expanded="false" ng-show="!changeAncient" ng-click="change()">
+           Change Ancient
+        </button>
+        <div class="btn-group">
+          <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ng-show="changeAncient">
+             <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu">
+            <li ng-repeat="ancient in ancients"><a href="" ng-click="select(ancient)">{{ ancient.name }}</a></li>
+          </ul>
+        </div>
+      </div><br>
+      <div class="alert alert-danger" role="alert" ng-show="changeAncient && selectedAncient.name">
+        <strong>Watch Out!</strong> Changing the Ancient One will reset the game! Cancel in {{ timeLeft }} seconds.
+      </div>
+    </div>
+    <div ng-controller="MonsterSpawner" class="col-md-12">
+      <div>
+        <input type="button" value="Spawn Monster" class="btn btn-default" ng-click="spawnMonster()" />
+      </div>
+      <br>
+      <div class="col-md-3" ng-repeat="monster in monstersSpawned">
+        <div class="panel monster-{{ monster.color }} monster-{{ monster.type }}">
+          <div class="panel-heading">
+            {{ monster.name }}
+            <span class="pull-right" style="color: red !important"><strong>{{ monster.awareness }}</strong></span>
+          </div>
+          <div class="panel-body">
+            <p ng-repeat="ability in monster.abilities">{{ ability.ability }}</p>
+            <input type="button" class="btn" value="Defeat" ng-click="defeatMonster($index)" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="/resources/jquery/jquery.min.js" charset="utf-8"></script>
+<script src="/resources/angular/angular.min.js" charset="utf-8"></script>
+<script src="/resources/bootstrap/js/bootstrap.min.js" charset="utf-8"></script>
+<script src="/index.js" charset="utf-8"></script>
+</html>

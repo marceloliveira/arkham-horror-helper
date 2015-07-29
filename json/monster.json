@@ -1,0 +1,564 @@
+{
+  "monsters": [
+    {
+      "name": "Byakhee",
+      "expansion": "AH",
+      "color": "blue",
+      "type": "normal",
+      "quantity": 3,
+      "dimension": "circle",
+      "awareness": -2,
+      "horrorRating": -1,
+      "horrorDamage": 1,
+      "toughness": 1,
+      "combatRating": 0,
+      "combatDamage": 2
+    },
+    {
+      "name": "Chthonian",
+      "expansion": "AH",
+      "color": "green",
+      "type": "normal",
+      "quantity": 2,
+      "dimension": "triangle",
+      "awareness": 1,
+      "horrorRating": -2,
+      "horrorDamage": 2,
+      "toughness": 3,
+      "combatRating": -3,
+      "combatDamage": 3
+    },
+    {
+      "name": "Cultist",
+      "expansion": "AH",
+      "color": "black",
+      "type": "normal",
+      "quantity": 6,
+      "dimension": "moon",
+      "awareness": -3,
+      "horrorRating": 0,
+      "horrorDamage": 0,
+      "toughness": 1,
+      "combatRating": 1,
+      "combatDamage": 1
+    },
+    {
+      "name": "Dark Young",
+      "expansion": "AH",
+      "color": "yellow",
+      "type": "normal",
+      "quantity": 3,
+      "dimension": "hexagon",
+      "awareness": -2,
+      "horrorRating": 0,
+      "horrorDamage": 3,
+      "toughness": 3,
+      "combatRating": -1,
+      "combatDamage": 3,
+      "abilities": [
+        {
+          "ability": "physicalResistance"
+        },
+        {
+          "ability": "nightmarish",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Dhole",
+      "expansion": "AH",
+      "color": "black",
+      "type": "normal",
+      "quantity": 1,
+      "dimension": "circle",
+      "awareness": -1,
+      "horrorRating": -1,
+      "horrorDamage": 4,
+      "toughness": 3,
+      "combatRating": -3,
+      "combatDamage": 4,
+      "abilities": [
+        {
+          "ability": "physicalResistance"
+        },
+        {
+          "ability": "magicalResistance"
+        },
+        {
+          "ability": "nightmarish",
+          "value": 1
+        },
+        {
+          "ability": "overwhelming",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Dimensional Shambler",
+      "expansion": "AH",
+      "color": "red",
+      "type": "normal",
+      "quantity": 2,
+      "dimension": "square",
+      "awareness": -3,
+      "horrorRating": -2,
+      "horrorDamage": 1,
+      "toughness": 1,
+      "combatRating": -2,
+      "combatDamage": 0,
+      "special": "fail combat litas"
+    },
+    {
+      "name": "Elder Thing",
+      "expansion": "AH",
+      "color": "black",
+      "type": "normal",
+      "quantity": 2,
+      "dimension": "diamond",
+      "awareness": -2,
+      "horrorRating": -3,
+      "horrorDamage": 2,
+      "toughness": 2,
+      "combatRating": 0,
+      "combatDamage": 1,
+      "special": "fail combat discard 1 weapon/spell"
+    },
+    {
+      "name": "Fire Vampire",
+      "expansion": "AH",
+      "color": "blue",
+      "type": "normal",
+      "quantity": 2,
+      "dimension": "star",
+      "awareness": 0,
+      "horrorRating": 0,
+      "horrorDamage": 0,
+      "toughness": 1,
+      "combatRating": -2,
+      "combatDamage": 2,
+      "abilities": [
+        {
+          "ability": "ambush"
+        },
+        {
+          "ability": "physicalImmunity"
+        }
+      ]
+    },
+    {
+      "name": "Flying Polyp",
+      "expansion": "AH",
+      "color": "blue",
+      "type": "normal",
+      "quantity": 1,
+      "dimension": "hexagon",
+      "awareness": 0,
+      "horrorRating": -2,
+      "horrorDamage": 4,
+      "toughness": 3,
+      "combatRating": -3,
+      "combatDamage": 3,
+      "abilities": [
+        {
+          "ability": "physicalResistance"
+        },
+        {
+          "ability": "nightmarish",
+          "value": 1
+        },
+        {
+          "ability": "overwhelming",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Formless Spawn",
+      "expansion": "AH",
+      "color": "black",
+      "type": "normal",
+      "quantity": 2,
+      "dimension": "hexagon",
+      "awareness": 0,
+      "horrorRating": -1,
+      "horrorDamage": 2,
+      "toughness": 2,
+      "combatRating": -2,
+      "combatDamage": 2,
+      "abilities": [
+        {
+          "ability": "physicalImmunity"
+        }
+      ]
+    },
+    {
+      "name": "Ghost",
+      "expansion": "AH",
+      "color": "yellow",
+      "type": "normal",
+      "quantity": 3,
+      "dimension": "moon",
+      "awareness": -3,
+      "horrorRating": -2,
+      "horrorDamage": 2,
+      "toughness": 1,
+      "combatRating": -3,
+      "combatDamage": 2,
+      "abilities": [
+        {
+          "ability": "physicalImmunity"
+        },
+        {
+          "ability": "undead"
+        }
+      ]
+    },
+    {
+      "name": "Ghoul",
+      "expansion": "AH",
+      "color": "black",
+      "type": "normal",
+      "quantity": 3,
+      "dimension": "hexagon",
+      "awareness": -3,
+      "horrorRating": 0,
+      "horrorDamage": 1,
+      "toughness": 1,
+      "combatRating": -1,
+      "combatDamage": 1,
+      "abilities": [
+        {
+          "ability": "ambush"
+        }
+      ]
+    },
+    {
+      "name": "God of the Bloody Tongue",
+      "expansion": "AH",
+      "color": "black",
+      "type": "mask",
+      "quantity": 1,
+      "dimension": "triangle",
+      "awareness": 1,
+      "horrorRating": -3,
+      "horrorDamage": 3,
+      "toughness": 4,
+      "combatRating": -4,
+      "combatDamage": 4,
+      "abilities": [
+        {
+          "ability": "endless"
+        },
+        {
+          "ability": "nightmarish",
+          "value": 1
+        },
+        {
+          "ability": "overwhelming",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Gug",
+      "expansion": "AH",
+      "color": "black",
+      "type": "normal",
+      "quantity": 2,
+      "dimension": "slash",
+      "awareness": -2,
+      "horrorRating": -1,
+      "horrorDamage": 2,
+      "toughness": 3,
+      "combatRating": -2,
+      "combatDamage": 4,
+      "abilities": [
+        {
+          "ability": "overwhelming",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Haunter of the Dark",
+      "expansion": "AH",
+      "color": "blue",
+      "type": "mask",
+      "quantity": 1,
+      "dimension": "square",
+      "awareness": -3,
+      "horrorRating": -2,
+      "horrorDamage": 2,
+      "toughness": 2,
+      "combatRating": -2,
+      "combatDamage": 2,
+      "abilities": [
+        {
+          "ability": "endless"
+        }
+      ]
+    },
+    {
+      "name": "High Priest",
+      "expansion": "AH",
+      "color": "black",
+      "type": "normal",
+      "quantity": 1,
+      "dimension": "plus",
+      "awareness": -2,
+      "horrorRating": 1,
+      "horrorDamage": 1,
+      "toughness": 2,
+      "combatRating": -2,
+      "combatDamage": 2,
+      "abilities": [
+        {
+          "ability": "magicalImmunity"
+        }
+      ]
+    },
+    {
+      "name": "Hound of Tindalos",
+      "expansion": "AH",
+      "color": "green",
+      "type": "normal",
+      "quantity": 2,
+      "dimension": "square",
+      "awareness": -1,
+      "horrorRating": -2,
+      "horrorDamage": 4,
+      "toughness": 2,
+      "combatRating": -1,
+      "combatDamage": 3,
+      "abilities": [
+        {
+          "ability": "physicalImmunity"
+        }
+      ]
+    },
+    {
+      "name": "Maniac",
+      "expansion": "AH",
+      "color": "black",
+      "type": "normal",
+      "quantity": 3,
+      "dimension": "moon",
+      "awareness": -1,
+      "horrorRating": 0,
+      "horrorDamage": 0,
+      "toughness": 1,
+      "combatRating": 1,
+      "combatDamage": 1,
+      "special": "terror 6 > cR -2 cD 3 endless"
+    },
+    {
+      "name": "Mi-Go",
+      "expansion": "AH",
+      "color": "blue",
+      "type": "normal",
+      "quantity": 3,
+      "dimension": "circle",
+      "awareness": -2,
+      "horrorRating": -1,
+      "horrorDamage": 2,
+      "toughness": 1,
+      "combatRating": 0,
+      "combatDamage": 1,
+      "special": "pass combat box 1 unique"
+    },
+    {
+      "name": "Nightgaunt",
+      "expansion": "AH",
+      "color": "blue",
+      "type": "normal",
+      "quantity": 2,
+      "dimension": "slash",
+      "awareness": -2,
+      "horrorRating": -1,
+      "horrorDamage": 1,
+      "toughness": 2,
+      "combatRating": -2,
+      "combatDamage": 0,
+      "special": "fail combat gate"
+    },
+    {
+      "name": "Shoggoth",
+      "expansion": "AH",
+      "color": "red",
+      "type": "normal",
+      "quantity": 2,
+      "dimension": "diamond",
+      "awareness": -1,
+      "horrorRating": -1,
+      "horrorDamage": 3,
+      "toughness": 3,
+      "combatRating": -1,
+      "combatDamage": 3,
+      "abilities": [
+        {
+          "ability": "physicalResistance"
+        },
+        {
+          "ability": "nightmarish",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "name": "Star Spawn",
+      "expansion": "AH",
+      "color": "black",
+      "type": "normal",
+      "quantity": 2,
+      "dimension": "plus",
+      "awareness": -1,
+      "horrorRating": -3,
+      "horrorDamage": 2,
+      "toughness": 3,
+      "combatRating": -3,
+      "combatDamage": 3
+    },
+    {
+      "name": "The Black Man",
+      "expansion": "AH",
+      "color": "black",
+      "type": "mask",
+      "quantity": 1,
+      "dimension": "moon",
+      "awareness": -3,
+      "horrorRating": 0,
+      "horrorDamage": 0,
+      "toughness": 1,
+      "combatRating": 0,
+      "combatDamage": 0,
+      "abilities": [
+        {
+          "ability": "endless"
+        }
+      ],
+      "special": "fail luck devoured pass luck 2 clue > cup"
+    },
+    {
+      "name": "The Bloated Woman",
+      "expansion": "AH",
+      "color": "black",
+      "type": "mask",
+      "quantity": 1,
+      "dimension": "hexagon",
+      "awareness": -1,
+      "horrorRating": -1,
+      "horrorDamage": 2,
+      "toughness": 2,
+      "combatRating": -2,
+      "combatDamage": 2,
+      "abilities": [
+        {
+          "ability": "endless"
+        }
+      ],
+      "special": "fail will fail horror combat"
+    },
+    {
+      "name": "The Dark Pharaoh",
+      "expansion": "AH",
+      "color": "black",
+      "type": "mask",
+      "quantity": 1,
+      "dimension": "slash",
+      "awareness": -1,
+      "horrorRating": -1,
+      "horrorDamage": 1,
+      "toughness": 2,
+      "combatRating": -3,
+      "combatDamage": 3,
+      "abilities": [
+        {
+          "ability": "endless"
+        }
+      ],
+      "special": "lore instead of fight"
+    },
+    {
+      "name": "Vampire",
+      "expansion": "AH",
+      "color": "black",
+      "type": "normal",
+      "quantity": 1,
+      "dimension": "moon",
+      "awareness": -3,
+      "horrorRating": 0,
+      "horrorDamage": 2,
+      "toughness": 2,
+      "combatRating": -3,
+      "combatDamage": 3,
+      "abilities": [
+        {
+          "ability": "physicalResistance"
+        },
+        {
+          "ability": "undead"
+        }
+      ]
+    },
+    {
+      "name": "Warlock",
+      "expansion": "AH",
+      "color": "yellow",
+      "type": "normal",
+      "quantity": 2,
+      "dimension": "circle",
+      "awareness": -2,
+      "horrorRating": -1,
+      "horrorDamage": 1,
+      "toughness": 2,
+      "combatRating": -3,
+      "combatDamage": 1,
+      "abilities": [
+        {
+          "ability": "magicalImmunity"
+        }
+      ],
+      "special": "pass combat box 2 clue"
+    },
+    {
+      "name": "Witch",
+      "expansion": "AH",
+      "color": "black",
+      "type": "normal",
+      "quantity": 2,
+      "dimension": "circle",
+      "awareness": -1,
+      "horrorRating": 0,
+      "horrorDamage": 0,
+      "toughness": 1,
+      "combatRating": -3,
+      "combatDamage": 2,
+      "abilities": [
+        {
+          "ability": "magicalResistance"
+        }
+      ]
+    },
+    {
+      "name": "Zombie",
+      "expansion": "AH",
+      "color": "black",
+      "type": "normal",
+      "quantity": 3,
+      "dimension": "moon",
+      "awareness": 1,
+      "horrorRating": -1,
+      "horrorDamage": 1,
+      "toughness": 1,
+      "combatRating": -1,
+      "combatDamage": 2,
+      "abilities": [
+        {
+          "ability": "undead"
+        }
+      ]
+    }
+  ]
+}

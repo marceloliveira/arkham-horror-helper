@@ -1,0 +1,29 @@
+.monster-black > .panel-heading {
+  background-color: black;
+  color: white;
+}
+.monster-blue > .panel-heading {
+  background-color: blue;
+  color: white;
+}
+.monster-green > .panel-heading {
+  background-color: green;
+  color: white;
+}
+.monster-red > .panel-heading {
+  background-color: red;
+  color: white;
+}
+.monster-yellow > .panel-heading {
+  background-color: yellow;
+  color: black;
+}
+.monster-mask {
+  border-color: yellow;
+}
+.monster-normal {
+  border-color: black;
+}
+.monster-spawn {
+  border-color: red;
+}
